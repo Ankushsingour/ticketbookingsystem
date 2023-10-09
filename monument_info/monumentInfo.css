@@ -4,6 +4,8 @@ body {
 }
 #monument-img {
   max-width: 1000px;
+
+
   margin: 20px auto;
 }
 
@@ -35,6 +37,13 @@ iframe {
 #monument-img img {
   width: 100%;
   height: auto;
+}
+#khajuraho-image 
+{
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 #timeline {
@@ -81,8 +90,8 @@ iframe {
 }
 
 #monument-information p {
-  font-family: monospace;
-  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
 }
 #head-container {
   display: flex;
